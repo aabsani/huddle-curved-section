@@ -1,0 +1,352 @@
+@import url("https://fonts.google.com/specimen/Poppins");
+@import url("https://fonts.google.com/specimen/Open+Sans");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  min-height: 100vh;
+  max-width: 1440px;
+  font-size: 18px;
+  font-family: "poppins", sans-serif;
+}
+
+.wrapper {
+  height: inherit;
+  width: 100%;
+}
+
+.wrapper .top-container .header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 1.2em;
+}
+
+.logo {
+  height: 1.5em;
+}
+
+.try {
+  background-color: white;
+  border: 1px solid hsl(322, 100%, 66%);
+  border-radius: 20px;
+  color: hsl(322, 100%, 66%);
+  font-weight: 600;
+  padding: 7px 20px;
+}
+
+.try:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.wrapper .top-container {
+  background-image: url(../images/bg-hero-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: 0 60%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.wrapper .top-container .desc {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+.wrapper .top-container .desc .summary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper .top-container .desc .summary .heading {
+  font-size: 35px;
+  font-weight: 600;
+  padding: 50px 30px 30px 30px;
+}
+
+.wrapper .top-container .desc .summary .summary-text {
+  font-weight: 400;
+  font-size: 0.9em;
+  padding: 0 30em;
+  text-align: center;
+}
+
+.start {
+  background-color: hsl(322, 100%, 66%);
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-weight: 700;
+  margin: 40px 65px;
+  padding: 1.3em 2em;
+  width: 25%;
+}
+
+.start:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.wrapper .top-container .desc .mockup {
+  align-self: center;
+  height: 37em;
+  width: 50em;
+  padding: 2em 0.6em;
+}
+
+.wrapper .top-container .desc .stats {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper .top-container .desc .stats .communities {
+  padding: 3em 11em;
+}
+
+.wrapper .top-container .desc .stats .messages {
+  padding: 3em 11em;
+}
+
+.stat-img {
+  height: 25px;
+  width: 25px;
+}
+
+.stat-numbers {
+  font-size: 3.5em;
+  font-weight: 500;
+}
+
+.stat-desc {
+  color: hsl(208, 11%, 55%);
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.wrapper .mid-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.bg-img-top {
+  background-image: url(../images/bg-section-top-desktop-1.svg),
+    url(../images/bg-section-bottom-desktop-1.svg);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  background-position: top, bottom;
+  padding: 5em 0em;
+}
+
+.bg-img-bottom {
+  background-image: url(../images/bg-section-top-desktop-2.svg),
+    url(../images/bg-section-bottom-desktop-2.svg);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  background-position: top, bottom;
+  padding: 5em 0em;
+}
+
+.wrapper .mid-container .grow {
+  align-items: center;
+  background-color: hsl(207, 100%, 98%);
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 2em 0em;
+  padding: 1.7em 5.5em;
+}
+
+.img-box {
+  /*the thubmnail pictures in the mid section*/
+  padding: 2.5em 3em;
+  height: 20em;
+}
+
+.desc2 {
+  margin-left: 5%;
+  padding: 30px;
+  width: 40%;
+}
+
+.heading2 {
+  font-family: "Poppins", serif;
+  font-size: 1.8em;
+  font-weight: 700;
+}
+
+.text {
+  color: hsl(208, 11%, 55%);
+  font-size: 0.9em;
+  font-weight: 300;
+  margin-top: 15px;
+}
+
+.wrapper .mid-container .flow {
+  align-items: center;
+  border: none;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin: 2em 0;
+  padding: 1.7em 5.5em;
+}
+
+.wrapper .mid-container .flow .box4 {
+  margin-left: 5%;
+}
+
+.wrapper .mid-container .users {
+  background-color: hsl(207, 100%, 98%);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2em 0;
+  padding: 1.7em 5.5em;
+}
+
+.wrapper .mid-container .ready {
+  background-color: white;
+  border: none;
+  margin: 5em 1em;
+  padding: 3em 1em;
+  text-align: center;
+}
+
+.wrapper .mid-container .ready .headingReady {
+  font-size: 1.8em;
+}
+
+.wrapper .mid-container .ready .readyButton {
+  border: none;
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 25px;
+  padding: 1.2em 0;
+  width: 60%;
+  color: white;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.readyButton:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.heading-box {
+  padding: 30px;
+}
+
+.bg-img-footer {
+  background-image: url(../images/bg-footer-top-desktop.svg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 8.5em;
+}
+
+.wrapper .bottom-container {
+  background-color: hsl(192, 100%, 9%);
+  border: none;
+  color: white;
+  padding: 4em;
+}
+
+.wrapper .bottom-container .footer-desc {
+  display: flex;
+}
+
+.wrapper .bottom-container .footer-desc .info {
+  font-size: 14px;
+  font-weight: 200;
+  width: 40%;
+}
+
+.footer-text {
+  color: white;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+.wrapper .bottom-container .footer-desc .info .footer-text,
+.telephone,
+.mail {
+  display: flex;
+  margin-top: 20px;
+}
+
+.wrapper .bottom-container .footer-desc .info .img-box2 {
+  margin-right: 15px;
+}
+
+.wrapper .bottom-container .footer-desc .social-media {
+  padding-top: 4em;
+}
+
+.smedia {
+  height: auto;
+  padding: 7.5px;
+  width: 40px;
+}
+
+.smedia:hover,
+.smedia:active {
+  background: lightblue;
+  cursor: pointer;
+}
+
+.newsletter {
+  padding-left: 20em;
+}
+
+.newsletter-text {
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 0.5em;
+  padding: 1.7em 0;
+  width: 60%;
+}
+
+input[type="email"] {
+  border: 0;
+  border-radius: 8px;
+  margin-top: 2em;
+  outline: 0;
+  padding: 0.9em 5.5em;
+}
+
+input[type="email"]:focus {
+  border: 0.8px solid crimson;
+}
+
+input[type="email"]:hover {
+  cursor: pointer;
+}
+
+.subscribe {
+  background-color: hsl(322, 100%, 66%);
+  border: 1px;
+  border-radius: 8px;
+  color: white;
+  font-size: 15px;
+  margin-left: 2em;
+  padding: 0.9em 3em;
+}
+
+.subscribe:hover,
+.subscribe:active {
+  cursor: pointer;
+  opacity: 0.4;
+}
